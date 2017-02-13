@@ -4,7 +4,7 @@ import util.Print;
 
 public class RainbowSort {
 	public int[] rainbowSort(int[] array) {
-		if(array.length == 0){
+		if(array.length <= 1){
 			return array;
 		}
 		int i = 0, j = 0, k = array.length - 1;
@@ -44,5 +44,5 @@ public class RainbowSort {
  * [0, i)  -1
  * [i, j)  0
  * [j, k]  unsolved
- * (k, emd] 1
+ * (k, end] 1
  * */

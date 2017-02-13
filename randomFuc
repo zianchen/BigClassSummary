@@ -1,0 +1,4 @@
+// This fuction will return a random integer between [left, right], not [left, right) !!!!
+private int pivotIndex(int left, int right){
+	return left + (int)(Math.random()*(right - left + 1));  // here we add 1 because random fuction returns a pseudorandom double greater than or equal to 0.0 and less than 1.0. which is [0.0, 1.0), not [0.0, 1.0]
+}
