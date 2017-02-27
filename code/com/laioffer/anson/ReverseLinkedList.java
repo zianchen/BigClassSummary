@@ -29,7 +29,7 @@ public class ReverseLinkedList {
 	*/
 	public ListNode reverseRecursion(ListNode head) {
 
-		if (head == null || head.next != null) {
+		if (head == null || head.next == null) {
 			return head;
 		}
 		ListNode newHead = reverseRecursion(head.next);
