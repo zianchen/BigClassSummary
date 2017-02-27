@@ -43,7 +43,7 @@ public class LastOccur {
 				right = mid - 1;
 			}
 		}
-		if (left >= array.length || array[left] != target) {
+		if (left > right || left >= array.length || array[left] != target) {
 			return -1;
 		}
 		return left;
