@@ -39,4 +39,5 @@ public class QueueByTwoStack {
 	public boolean isEmpty() {
 		return popStack.isEmpty() && pushStack.isEmpty();
 	}
+
 }
